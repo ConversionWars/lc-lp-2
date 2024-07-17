@@ -198,7 +198,19 @@ ul.circles li::before {
 .tier-5 img {border:10px solid #0c0b0e;border-radius:50%;}
 .tier-5 p {font-size:20px;margin-top:100px;}
 
-.tier-faq {padding:50px 0;}
+.tier-faq .quest-box {margin-top:80px;margin-bottom:80px;border-radius:15px;background:#404041;color:#fff;padding:0;overflow:hidden;-webkit-box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);}
+.tier-faq .quest-box h4 {text-transform:none;font-family: 'Open Sans', sans-serif;font-weight:700;font-size:24px;margin-top: 10px;
+    margin-bottom: 10px;}
+.tier-faq .quest-box h4 a {color:#fff;}
+.tier-faq .quest-box .panel-default>.panel-heading {background-color:#404041;border:none;padding:5px 15px;}
+.tier-faq .quest-box .panel-default:nth-child(even)>.panel-heading {background-color:#0b0b0d;}
+.tier-faq .quest-box .panel-group .panel+.panel {margin-top:0;}
+.tier-faq .quest-box .panel, .tier-faq .quest-box .panel-default {border:none;}
+.tier-faq .quest-box .panel-default>.panel-heading+.panel-collapse>.panel-body {border:none;font-size:18px;background:#404041}
+.tier-faq .quest-box .panel-default:nth-child(even)>.panel-heading+.panel-collapse>.panel-body {background:#0b0b0d;}
+.tier-faq .quest-box .panel-group {margin-bottom:0;}
+.tier-faq .adj-1 p {margin-bottom:35px;}
+.tier-faq .adj-1 h4 {margin-top:50px;}
 
 .tier-close {
 	background:url(../img/tile.webp) center top no-repeat;
