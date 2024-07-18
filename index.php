@@ -2,7 +2,7 @@
  include('template/header.php'); 
 ?>
 
-<div class="hero">
+<div class="hero hidden-xs">
 <div class="hero-b">
 	<div class="container">
 		<div class="row">
@@ -25,6 +25,9 @@
 	</div>
 </div>
 </div>
+
+<a href="#"><img src="img/hero-m.webp" class="img-responsive visible-xs" /></a>
+
 <div class="hero-floor">
 	<div class="container pos">
 		<div class="row adj-1">
@@ -48,7 +51,7 @@
 	</div>
 </div>
 <div class="red-bar">
-	<span class="white">Free</span> &nbsp;Discord Membership&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="white">Free</span> &nbsp;9 Module Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="white">Free</span> &nbsp;Webinar Access&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="white">Free</span> &nbsp;Community Access
+	<span class="white">Free</span> &nbsp;Discord Membership&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="white">Free</span> &nbsp;9 Module Course<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br class="visible-xs" /><span class="white">Free</span> &nbsp;Webinar Access&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="white">Free</span> &nbsp;Community Access
 </div>
 <div class="tier-2 pos">
 <div class="tier-2b"></div>
@@ -297,6 +300,51 @@
 			</div>
 		</div>
 
+	</div>
+</div>
+
+<div class="tier-close">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7 col-sm-offset-2 adj-1">
+				<img src="img/aso.webp" class="img-responsive" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7 col-sm-offset-2 pos">
+				<h1 class="adj-2 text-center">MoneyBox</h1>
+				<h2 class="text-center">This Box Makes You <u>Money</u></h2>
+				<div class="adj-3">
+					<img src="img/box.webp" class="img-responsive" />
+					<div class="cta">
+						<a href="#" class="cta-btn">Get My Moneybox Now!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hero-floor closeout">
+	<div class="container pos">
+		<div class="row adj-1">
+			<div class="shirt-con">
+				<img src="img/cut-shirt.webp" class="img-responsive" />
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<ul class="checks">
+					<li><span class="cw-bold">E-book:</span> Zero to Seven Figures Online</li>
+					<li><span class="cw-bold">E-book:</span> How to Steal Online Secrets</li>
+					<li><span class="cw-bold">Motivational Merch:</span> Stay Motivated with Special MERCH</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul class="checks">
+					<li><span class="cw-bold">Playbook:</span> Seven Figure E-Com</li>
+					<li><span class="cw-bold">Full Book:</span> How to Make Money and Influence Customers</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>
 

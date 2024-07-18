@@ -1,4 +1,4 @@
-<style>
+<!--<style>
 	footer {padding:50px 15px;}
 	footer p, footer li {font-size:16px;}
 	footer a {color:#e63444;}
@@ -34,7 +34,7 @@
 			</div>
 		</div>
 	</div>
-</footer>
+</footer>-->
 </div>
 </body>
 <script src="js/wow.js"></script>

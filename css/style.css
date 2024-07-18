@@ -52,7 +52,7 @@ p{margin:20px 0 0;line-height:1.4;}
 	background:#e63444;
 }
 .cta-btn:hover, .cta-btn:active {color:#fff;}
-.hero .cta-btn::after {
+.hero .cta-btn::after, .tier-close .cta-btn::after {
 	content:' ';
 	position:absolute;
 	width:102px;
@@ -60,6 +60,16 @@ p{margin:20px 0 0;line-height:1.4;}
 	bottom:40px;
 	right:-50px;
 	background:url(../img/arrow.webp) center top no-repeat;
+	pointer-events:none;
+}
+.tier-close .cta-btn::before {
+	content:' ';
+	position:absolute;
+	width:228px;
+	height:108px;
+	background:url(../img/price.webp) center center no-repeat;
+	bottom:100px;
+	right:50px;
 }
 
 ul.checks {padding:0;margin:0;}
@@ -96,15 +106,15 @@ ul.circles li::before {
 
 .hero {background:url(../img/tile.webp);}
 .hero-b {background:url(../img/bg-1-l.webp) left top no-repeat;height:737px;}
-.hero .adj-1 {margin-top:50px;}
-.hero .adj-2 {margin-top:100px;}
-.hero .adj-3 {
+.hero .adj-1, .tier-close .adj-1 {margin-top:50px;}
+.hero .adj-2, .tier-close .adj-2 {margin-top:100px;}
+.hero .adj-3, .tier-close .adj-3 {
 	position:absolute;
 	top:20px;
 	right:0;
 	width:108%;
 }
-.hero .cta {margin-top:-4px;}
+.hero .cta, .tier-close .cta {margin-top:-4px;}
 .hero-floor, .tier-faq {
 	background: linear-gradient(135deg,  #000000 0%,#0b0b0d 100%);
 	border-top:10px solid #000;
@@ -118,6 +128,7 @@ ul.circles li::before {
 	right:calc(66% - 60px);
 	pointer-events: none;
 }
+.hero-floor.closeout .shirt-con {left:-16.666666%;}
 .red-bar.floor {height:35px;line-height:35px;font-size:18px;}
 .red-bar {
 	text-transform: uppercase;
@@ -186,7 +197,7 @@ ul.circles li::before {
 .tier-3 .adj-2 {padding-left:25px;}
 .tier-3 .adj-3 {margin-top:250px;}
 
-.tier-4 {background: url(../img/bg-4.webp) center top no-repeat #0c0b0e;height:500px;}
+.tier-4 {background: url(../img/bg-4.webp) center top no-repeat #0c0b0e;height:500px;border-top:10px solid #000;border-bottom:10px solid #000;}
 .tier-4 .adj-1 {margin-top:80px;}
 .tier-4 .shirt {
 	position:absolute;
@@ -213,27 +224,105 @@ ul.circles li::before {
 .tier-faq .adj-1 h4 {margin-top:50px;}
 
 .tier-close {
-	background:url(../img/tile.webp) center top no-repeat;
+	background:url(../img/tile.webp) center top;
+	height:760px;
 }
 
 
 
 @media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);overflow-x: hidden;}}
-
+@media (max-width: 1499px) {.red-bar {font-size:20px;}}
 @media (max-width: 1199px) {
 	body {font-size:18px;}
+	h4 {font-size: 38px;}
+	h4.sml {font-size: 30px;}
+	p {font-size:18px;margin-top:10px;}
 	.cta-btn {height: 60px;line-height: 60px;font-size: 24px;-webkit-box-shadow: 2px 3px 0px rgba(64,64,65,1);box-shadow: 2px 3px 0px rgba(64,64,65,1);}
-	
+	.hero-b {height: 623px;background-size: 798px;background-position: -260px top;}
+	.hero-floor .container {height: 160px;}
+	ul.checks li {padding: 8px 0;font-size: 16px;}
+	ul.checks li::before {top: 4px;left: -24px;}
+	.hero-floor .shirt-con {width:240px;}
+	.red-bar {font-size: 16px;}
+	.bk-a {top: 80px;right: 66px;width: 600px;}
+	.bk-b {bottom: -200px;right: 58px;width: 600px;}
+	.bk-c {top: 40px;left: 0px;width: 600px;}
+	.bk-d {bottom: -60px;width: 600px;}
+	.red-bar.right, .red-bar.left {height: 100px;}
+	.red-bar.right {margin-top:35px;}
+	.red-bar.right::before {width: 115px;height: 133px;}
+	.tier-2 {height: 1427px;}
+	.tier-2b {background-size: 770px;}
+	.sep {height: 250px;background-size: 1200px;}
+	.sep .cta {margin-top: 90px;}
+	.tier-3 .adj-1 {margin-top: 100px;}
+	.red-bar.left::after {width: 126px;height: 100px;top: 0;right: 96%;background-size: 100%;}
+	.tier-3 .adj-3 {margin-top: 158px;}
+	.tier-3 {height: 1300px;background-size: 1470px;}
+	.tier-4 {height: 380px;background-size: 1460px;}
+	.tier-4 .adj-1 {margin-top: 50px;}
+	.tier-4 .shirt {right: 20px;top: -60px;width: 450px;}
+	.tier-5 {height: 1245px;background-size: 1600px;}
+	.tier-5 p {font-size: 18px;margin-top: 70px;}
+	.tier-close {height: 613px;}
+	.hero-floor.closeout .shirt-con {left: -5.666666%;}
 }
+
 @media (max-width: 991px) {
 	body {font-size:14px;}
+	h4 {font-size: 30px;}
+	h4.sml {font-size: 24px;}
+	p {font-size: 14px;margin-top: 10px;}
 	.cta {margin-top: 20px;}
 	.cta-btn {height: 40px;line-height: 40px;font-size: 16px;}
+	.hero .cta-btn::after, .tier-close .cta-btn::after {
+		width: 72px;
+		height: 253px;
+		bottom: 20px;
+		background-size: 100%;
+	}
+	.hero-b {height: 492px;background-size: 631px;background-position: -220px top;}
+	ul.checks li {padding: 5px 0;font-size: 14px;}
+	.red-bar {font-size: 12px;}
+	.bk-a {top: 80px;right: 25px;width: 480px;}
+	.bk-b {bottom: -100px;right: 16px;width: 480px;}
+	.bk-c {top: 30px;left: 0px;width: 480px;}
+	.bk-d {bottom: -60px;width: 480px;}
+	.tier-2 .half-circ {width: 500px;}
+	.tier-2 .adj-1 {margin-top: 140px;}
+	.red-bar.right, .red-bar.left {height: 80px;}
+	.red-bar.right {margin-top: 45px;}
+	.red-bar.left {margin-top: 35px;}
+	.red-bar.left::after {width: 96px;height: 82px;}
+	.tier-2 {height: 1155px;}
+	.tier-2b {background-size: 620px;}
+	.tier-2 .adj-3 {margin-top: 130px;}
+	.tier-3 {height: 1060px;background-size: 1200px;}
+	.tier-3 .adj-3 {margin-top: 90px;}
+	.tier-4 {height: 332px;background-size: 1200px;}
+	.tier-4 .shirt {right: 5px;top: -60px;width: 370px;}
+	.tier-4 .adj-1 {margin-top: 30px;}
+	.tier-5 {height: 935px;background-size: 1200px;}
+	.tier-5 p {font-size: 16px;margin-top: 30px;}
+	.tier-faq .quest-box h4 {font-size: 18px;margin-top: 8px;margin-bottom: 8px;}
+	.tier-close {height: 482px;}
+	.tier-close .cta-btn::before {width: 160px;height: 75px;bottom: 70px;background-size: 100%;}
+	.hero-floor.closeout .shirt-con {left: -7.666666%;width:230px;}
 
 }
+
 @media (max-width: 767px) {
 	.tier-1, .tier-2, .tier-3, .tier-4, .tier-5, .tier-7 {min-height:auto;padding-bottom:35px;}
 	body {font-size:14px;}
+	.hero .cta-btn::after, .tier-close .cta-btn::after {display:none;}
+	.cta {padding:0 10%;}
+	.bk-a, .bk-b, .bk-c, .bk-d {position:relative;width:100%;}
+	.hero .adj-1, .tier-close .adj-1 {margin-top: 10px;}
+	ul.checks {padding-left: 25%;}
+	ul.checks li {font-size: 12px;}
+	.hero-floor .container {height: auto;}
+	.hero-floor .shirt-con {right: 60%;}
+	.tier-2 .half-circ {width: 100%;}
 
 }
 @media (max-width: 391px) {
