@@ -65,7 +65,7 @@
 				<div class="title-con pos">
 					<img src="img/hard-copy.webp" class="img-responsive" />
 				</div>
-				<h4>Zer<span class="red">o</span> to <span class="red">7</span> Figures Online</h4>
+				<h4>Zer<span class="red">o</span> to <span class="red">7</span> <br class="visible-xs" />Figures Online</h4>
 				<p>Learn how to...</p>
 				<ul class="circles adj-2">
 					<li>Build a brand <span class="red cw-bold">from scratch</span></li>
@@ -127,7 +127,7 @@
 				<div class="title-con pos">
 					<img src="img/hard-copy.webp" class="img-responsive" />
 				</div>
-				<h4>How to <span class="red">Steal</span> Online Secrets</h4>
+				<h4>How to <span class="red">Steal</span> <br class="visible-xs" />Online Secrets</h4>
 				<p>Learn how to...</p>
 				<ul class="circles adj-2">
 					<li>Identify brands that are <span class="red cw-bold">crushing</span> it</li>

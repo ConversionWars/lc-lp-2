@@ -312,28 +312,119 @@ ul.circles li::before {
 }
 
 @media (max-width: 767px) {
-	.tier-1, .tier-2, .tier-3, .tier-4, .tier-5, .tier-7 {min-height:auto;padding-bottom:35px;}
+	.tier-2, .tier-3, .tier-4, .tier-5, .tier-7 {height:auto;padding-bottom:35px;}
 	body {font-size:14px;}
 	.hero .cta-btn::after, .tier-close .cta-btn::after {display:none;}
 	.cta {padding:0 10%;}
 	.bk-a, .bk-b, .bk-c, .bk-d {position:relative;width:100%;}
+	.bk-a {right:0;}
+	.bk-b {bottom: 0px;right: 0px;}
+	.bk-d {bottom: -30px;}
+	ul.circles li {padding-right: 30%;}
 	.hero .adj-1, .tier-close .adj-1 {margin-top: 10px;}
 	ul.checks {padding-left: 25%;}
 	ul.checks li {font-size: 12px;}
 	.hero-floor .container {height: auto;}
 	.hero-floor .shirt-con {right: 60%;}
 	.tier-2 .half-circ {width: 100%;}
-
+	.tier-2 .adj-1 {margin-top: -30px;}
+	.red-bar.right, .red-bar.left {padding-top: 5px;}
+	.red-bar.right {margin-top: 30px;}
+	.red-bar.right p, .red-bar.left p {padding-right:0;padding-left:0;font-size:12px;}
+	.red-bar.left::after {display:none;}
+	.tier-2 .adj-3 {margin-top: -95px;}
+	.sep {height: 113px;background-size: 540px;}
+	.sep .cta {margin-top: 50px;}
+	.tier-3 {background-size: 950px;background-position: -360px top;}
+	.tier-3 .adj-1 {margin-top: -10px;}
+	.tier-3 .adj-3 {margin-top: 30px;}
+	.tier-4 .shirt {top: auto;width: 200px;bottom: -90px;}
+	.tier-5 .col-xs-4 {padding:0;}
+	.tier-5 img {border: 5px solid #0c0b0e;}
+	.tier-5 p {font-size: 12px;margin-top: 25px;}
+	.tier-faq .quest-box {margin: 50px 15px;}
+	.tier-faq .quest-box .panel-default>.panel-heading+.panel-collapse>.panel-body {font-size: 12px;}
+	.tier-close .adj-3 {position: absolute;top: -80px;right: 0;width: 100%;}
+	.tier-close {height: 407px;}
+	.hero-floor.closeout .shirt-con {left: -18.666666%;width: 230px;}
 }
 @media (max-width: 391px) {
-	
+	h4 {
+        font-size: 26px;
+    }
+	h4.sml {
+        font-size: 22px;
+    }
+	.tier-2 .adj-1 {
+        margin-top: -15px;
+    }
+	.tier-2 .adj-3 {
+        margin-top: -85px;
+    }
+	.tier-3 .adj-1 {
+        margin-top: -5px;
+    }
+	.tier-4 .shirt {
+        top: auto;
+        width: 170px;
+        bottom: -70px;
+    }
+	.tier-5 p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+	.tier-5 .row {margin-top:10px;margin-bottom:10px;}
+	.hero-floor.closeout .shirt-con {
+        left: -21.666666%;
+        width: 230px;
+    }
+	.tier-close {
+        height: 380px;
+    }
 }
 @media (max-width: 376px) {
-	
+	.hero-floor .shirt-con {
+        right: 56%;
+    }
+	.red-bar {
+        font-size: 11px;
+    }
+	.red-bar.right p, .red-bar.left p {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 11px;
+    }
+	.tier-4 {
+        background-size: 1320px;
+    }
+	.tier-4 .shirt {bottom: -60px;}
+	.tier-5 p {
+        font-size: 11px;
+        margin-top: 5px;
+    }
 }
 @media (max-width: 361px) {
 	
 }
 @media (max-width: 321px) {
-	
+	.red-bar {font-size: 10px;}
+	.hero-floor .shirt-con {
+        right: 53%;
+    }
+	.red-bar.right p, .red-bar.left p {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 10px;
+    }
+	h4.sml {
+        font-size: 20px;
+    }
+	.tier-4 .shirt {width: 130px;}
+	.tier-close {
+        height: 330px;
+    }
+	.hero-floor.closeout .shirt-con {
+        left: -26.666666%;
+        width: 230px;
+    }
 }
