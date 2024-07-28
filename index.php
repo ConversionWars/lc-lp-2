@@ -6,12 +6,12 @@
 <div class="hero-b">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-7 col-sm-offset-5 adj-1">
+			<div class="col-sm-7 col-sm-offset-3 adj-1">
 				<img src="img/aso.webp" class="img-responsive" />
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-7 col-sm-offset-4 pos">
+			<div class="col-sm-7 col-sm-offset-2 pos">
 				<h1 class="adj-2 text-center">MoneyBox</h1>
 				<h2 class="text-center">This Box Makes You <u>Money</u></h2>
 				<div class="adj-3">
@@ -34,7 +34,7 @@
 			<div class="shirt-con">
 				<img src="img/cut-shirt.webp" class="img-responsive" />
 			</div>
-			<div class="col-sm-4 col-sm-offset-4">
+			<div class="col-sm-4 col-sm-offset-2">
 				<ul class="checks">
 					<li><span class="cw-bold">E-book:</span> Zero to Seven Figures Online</li>
 					<li><span class="cw-bold">E-book:</span> How to Steal Online Secrets</li>

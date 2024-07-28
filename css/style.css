@@ -105,7 +105,7 @@ ul.circles li::before {
 }
 
 .hero {background:url(../img/tile.webp);}
-.hero-b {background:url(../img/bg-1-l.webp) left top no-repeat;height:737px;}
+.hero-b {background:url(../img/bg-1-l.webp) left -170px top no-repeat;height:737px;}
 .hero .adj-1, .tier-close .adj-1 {margin-top:50px;}
 .hero .adj-2, .tier-close .adj-2 {margin-top:100px;}
 .hero .adj-3, .tier-close .adj-3 {
@@ -125,7 +125,7 @@ ul.circles li::before {
 .hero-floor .shirt-con {
 	position:absolute;
 	bottom:0;
-	right:calc(66% - 60px);
+	left:-3%;
 	pointer-events: none;
 }
 .hero-floor.closeout .shirt-con {left:-16.666666%;}
@@ -238,7 +238,7 @@ ul.circles li::before {
 	h4.sml {font-size: 30px;}
 	p {font-size:18px;margin-top:10px;}
 	.cta-btn {height: 60px;line-height: 60px;font-size: 24px;-webkit-box-shadow: 2px 3px 0px rgba(64,64,65,1);box-shadow: 2px 3px 0px rgba(64,64,65,1);}
-	.hero-b {height: 623px;background-size: 798px;background-position: -260px top;}
+	.hero-b {height: 623px;background-size: 798px;background-position: -330px top;}
 	.hero-floor .container {height: 160px;}
 	ul.checks li {padding: 8px 0;font-size: 16px;}
 	ul.checks li::before {top: 4px;left: -24px;}
@@ -250,7 +250,7 @@ ul.circles li::before {
 	.bk-d {bottom: -60px;width: 600px;}
 	.red-bar.right, .red-bar.left {height: 100px;}
 	.red-bar.right {margin-top:35px;}
-	.red-bar.right::before {width: 115px;height: 133px;}
+	red-bar.right::before {width: 115px;height: 133px;  background-size: 100%;}
 	.tier-2 {height: 1427px;}
 	.tier-2b {background-size: 770px;}
 	.sep {height: 250px;background-size: 1200px;}
@@ -281,7 +281,8 @@ ul.circles li::before {
 		bottom: 20px;
 		background-size: 100%;
 	}
-	.hero-b {height: 492px;background-size: 631px;background-position: -220px top;}
+	.hero-b {height: 492px;background-size: 631px;background-position: -260px top;}
+	.hero-floor .shirt-con {left: -6%;}
 	ul.checks li {padding: 5px 0;font-size: 14px;}
 	.red-bar {font-size: 12px;}
 	.bk-a {top: 80px;right: 25px;width: 480px;}
@@ -292,6 +293,7 @@ ul.circles li::before {
 	.tier-2 .adj-1 {margin-top: 140px;}
 	.red-bar.right, .red-bar.left {height: 80px;}
 	.red-bar.right {margin-top: 45px;}
+	.red-bar.right::before {width: 93px;height: 111px;}
 	.red-bar.left {margin-top: 35px;}
 	.red-bar.left::after {width: 96px;height: 82px;}
 	.tier-2 {height: 1155px;}
@@ -325,7 +327,7 @@ ul.circles li::before {
 	ul.checks {padding-left: 25%;}
 	ul.checks li {font-size: 12px;}
 	.hero-floor .container {height: auto;}
-	.hero-floor .shirt-con {right: 60%;}
+	.hero-floor .shirt-con {right: 60%;left:auto;}
 	.tier-2 .half-circ {width: 100%;}
 	.tier-2 .adj-1 {margin-top: -30px;}
 	.red-bar.right, .red-bar.left {padding-top: 5px;}
